@@ -67,6 +67,7 @@ namespace Fluid.Core
         public static void Start()
         {
             if (Initialized) return;
+            Console.WriteLine("");
             Initialized = true;
         }
 
@@ -76,7 +77,7 @@ namespace Fluid.Core
             Initialized = false;
         }
 
-        public static OnlinePlayer GetOnlinePlayer(string name)
+        public static OnlinePlayer? GetOnlinePlayer(string name)
         {
             foreach (OnlinePlayer player in OnlinePlayers)
             {
@@ -88,7 +89,7 @@ namespace Fluid.Core
             return null;
         }
 
-        public static OfflinePlayer GetOfflinePlayer(string name)
+        public static OfflinePlayer? GetOfflinePlayer(string name)
         {
             foreach (OfflinePlayer player in OfflinePlayers)
             {
