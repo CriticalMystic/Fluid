@@ -1,4 +1,6 @@
-#Project Fluid Q: What is Project Fluid? A: Project Fluid is a Minecraft Bedrock Edition server that is written in C# instead of PHP. Project Fluid is for everyone who just hates to develop plugins with php
+#Project Fluid 
+
+Q: What is Project Fluid? A: Project Fluid is a Minecraft Bedrock Edition server that is written in C# instead of PHP. Project Fluid is for everyone who just hates to develop plugins with php
 
 Q: Why C#? A: C# is a modern and easy and performant language. We see this as being the dominant language in the Future. C# is easy to maintain and can be used very good for stuff like libraries when compared to C++.
 
