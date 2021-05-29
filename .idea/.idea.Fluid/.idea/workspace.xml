@@ -4,8 +4,8 @@
     <projectFile>FluidCore/FluidCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="first init">
-      <change beforePath="$PROJECT_DIR$/Fluid/Core/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Item/Items/ItemType.cs" afterDir="false" />
+    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,8 @@
       <workItem from="1622275085582" duration="726000" />
       <workItem from="1622280719459" duration="490000" />
       <workItem from="1622282616012" duration="979000" />
-      <workItem from="1622293386294" duration="1803000" />
+      <workItem from="1622293386294" duration="2585000" />
+      <workItem from="1622303853133" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1622275259994</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622294693569</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated some stuff">
+      <created>1622295220525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622295220525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +186,7 @@
     <MESSAGE value="removed .idea" />
     <MESSAGE value="fixed Item.cs" />
     <MESSAGE value="first init" />
-    <option name="LAST_COMMIT_MESSAGE" value="first init" />
+    <MESSAGE value="updated some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated some stuff" />
   </component>
 </project>
