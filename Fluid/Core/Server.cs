@@ -72,12 +72,16 @@ namespace Fluid.Core
         }
         
 
-        public OnlinePlayer getOnlinePlayer(string name)
+        public static OnlinePlayer GetOnlinePlayer(string name)
         {
             foreach(OnlinePlayer player in Players)
             {
-                player.Name.Equals(name);
+                if(player.Name.Equals(name))
+                {
+                    return player;
+                }
             }
+            return null;
         }
     }
 }
