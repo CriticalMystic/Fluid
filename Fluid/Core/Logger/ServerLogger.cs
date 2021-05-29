@@ -8,9 +8,11 @@ namespace Fluid.Core.Logger
 {
     public class ServerLogger : LoggerManager
     {
-        public static void Info(string message)
+        public static void Info(string message, int colorCode)
         {
-            Console.WriteLine($"[Server]: {message}", ConsoleColor.Red);
+            Console.Write("[Server]: ");
+            
+            Console.Write(message, ConsoleColor.Red);
         }
     }
 }
