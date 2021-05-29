@@ -20,5 +20,7 @@ namespace Fluid.Core
         /// This value can generate random numbers
         /// </summary>
         public static Random Random { get; set; } = new();
+
+
     }
 }
