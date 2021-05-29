@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fluid.Core
 {
-    class LoggerManager
+    public class LoggerManager
     {
 
     }

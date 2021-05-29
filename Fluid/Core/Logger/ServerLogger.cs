@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Fluid.Core.Logger
 {
-    class ServerLogger : LoggerManager
+    public class ServerLogger : LoggerManager
     {
         public static void Info(string message)
         {
-            Console.WriteLine($"[Server]: {message}");
+            Console.WriteLine($"[Server]: {message}", ConsoleColor.Red);
         }
     }
 }

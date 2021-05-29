@@ -1,3 +1,4 @@
+using Fluid.Core.Logger;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -67,7 +68,7 @@ namespace Fluid.Core
         public static void Start()
         {
             if (Initialized) return;
-            Console.WriteLine("");
+            ServerLogger.Info("Server started successfully!");
             Initialized = true;
         }
 
