@@ -70,5 +70,6 @@ namespace Fluid.Core
             if (!Initialized) return;
             Initialized = false;
         }
+        
     }
 }
