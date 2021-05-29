@@ -21,7 +21,12 @@ namespace Fluid.Core
         /// <summary>
         /// Stores OnlinePlayers
         /// </summary>
-        public static List<OnlinePlayer> Players { get; private set; } = new();
+        public static List<OnlinePlayer> OnlinePlayers { get; private set; } = new();
+
+        /// <summary>
+        /// Stores OfflinePlayers
+        /// </summary>
+        public static List<OfflinePlayer> OfflinePlayers { get; private set; } = new();
 
         /// <summary>
         /// Determines the maximal playercount
@@ -70,13 +75,24 @@ namespace Fluid.Core
             if (!Initialized) return;
             Initialized = false;
         }
-        
 
         public static OnlinePlayer GetOnlinePlayer(string name)
         {
-            foreach(OnlinePlayer player in Players)
+            foreach (OnlinePlayer player in OnlinePlayers)
             {
-                if(player.Name.Equals(name))
+                if (player.Name.Equals(name))
+                {
+                    return player;
+                }
+            }
+            return null;
+        }
+
+        public static OfflinePlayer GetOfflinePlayer(string name)
+        {
+            foreach (OfflinePlayer player in OfflinePlayers)
+            {
+                if (player.Name.Equals(name))
                 {
                     return player;
                 }
