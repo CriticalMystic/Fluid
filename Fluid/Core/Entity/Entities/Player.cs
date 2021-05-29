@@ -4,13 +4,8 @@ namespace Fluid.Core
     {
         public override bool Is<T>() => typeof(T) == typeof(Player);
 
-        private int _gamemode;
-        public int Gamemode
-        {
-            get { return _gamemode; }
-            set { _gamemode = value; }
-        }
+        public int Gamemode { get; set; }
 
-        
+        public Inventory Inventory { get; set; }
     }
 }

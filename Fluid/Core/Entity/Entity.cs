@@ -9,6 +9,8 @@ namespace Fluid.Core
         /// <returns>The result</returns>
         public abstract bool Is<T>();
 
-        private float _health;
+        public float Health { get; set; }
+
+        public float MaxHealth { get; set; }
     }
 }
