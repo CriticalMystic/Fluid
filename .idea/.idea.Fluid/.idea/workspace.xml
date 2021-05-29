@@ -4,7 +4,11 @@
     <projectFile>FluidCore/FluidCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="" />
+    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Fluid/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Fluid/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fluid/Core/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Items/Item.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +67,9 @@
       <option value="$PROJECT_DIR$/Fluid/Core/Network/PacketSender.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Network/PacketReceiver.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Event/EventArgs/CancelableEventArgs.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Items/Item.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Plugin/Plugin.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Plugin/PluginManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sLSi5Lyd7DfoSL1YFfAyXpNCY5" />
@@ -79,8 +86,8 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -116,7 +123,8 @@
       <workItem from="1620715568116" duration="7445000" />
       <workItem from="1622275085582" duration="726000" />
       <workItem from="1622280719459" duration="490000" />
-      <workItem from="1622282616012" duration="116000" />
+      <workItem from="1622282616012" duration="979000" />
+      <workItem from="1622293386294" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1622275259994</created>
