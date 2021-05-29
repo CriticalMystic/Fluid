@@ -4,7 +4,9 @@
     <projectFile>FluidCore/FluidCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="fixed Item.cs" />
+    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="first init">
+      <change beforePath="$PROJECT_DIR$/Fluid/Core/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Item/Items/ItemType.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +68,7 @@
       <option value="$PROJECT_DIR$/Fluid/Core/Items/Item.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Plugin/Plugin.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Plugin/PluginManager.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Item/Items/ItemType.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sLSi5Lyd7DfoSL1YFfAyXpNCY5" />
@@ -120,7 +123,7 @@
       <workItem from="1622275085582" duration="726000" />
       <workItem from="1622280719459" duration="490000" />
       <workItem from="1622282616012" duration="979000" />
-      <workItem from="1622293386294" duration="1286000" />
+      <workItem from="1622293386294" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1622275259994</created>
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622294123394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first init">
+      <created>1622294693569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622294693569</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,9 +175,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="first init" />
     <MESSAGE value="removed .idea" />
     <MESSAGE value="fixed Item.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed Item.cs" />
+    <MESSAGE value="first init" />
+    <option name="LAST_COMMIT_MESSAGE" value="first init" />
   </component>
 </project>

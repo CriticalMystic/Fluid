@@ -339,7 +339,7 @@ namespace Fluid.Core
         public static int GOLDEN_HOE = 294;
         public static int SEEDS = 295;
         public static int WHEAT_SEEDS = 295;
-        public static int WHEAT = 296;
+        //public static int WHEAT = 296;
         public static int BREAD = 297;
         public static int LEATHER_CAP = 298;
         public static int LEATHER_TUNIC = 299;
@@ -380,7 +380,7 @@ namespace Fluid.Core
         public static int LEATHER = 334;
 
         public static int BRICK = 336;
-        public static int CLAY = 337;
+        //public static int CLAY = 337;
         public static int SUGARCANE = 338;
         public static int SUGAR_CANE = 338;
         public static int SUGAR_CANES = 338;
@@ -399,8 +399,8 @@ namespace Fluid.Core
         public static int DYE = 351;
         public static int BONE = 352;
         public static int SUGAR = 353;
-        public static int CAKE = 354;
-        public static int BED = 355;
+        //public static int CAKE = 354;
+        //public static int BED = 355;
         public static int REPEATER = 356;
         public static int COOKIE = 357;
         public static int MAP = 358;
