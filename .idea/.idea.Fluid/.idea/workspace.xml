@@ -4,8 +4,17 @@
     <projectFile>FluidCore/FluidCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment=".">
-      <change beforePath="$PROJECT_DIR$/Fluid/Core/Color/CC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Color/CC.cs" afterDir="false" />
+    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="Added descriptions to all ChatColors">
+      <change afterPath="$PROJECT_DIR$/Fluid/Core/Entity/EntityMeta.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fluid/Core/Entity/LivingEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fluid/Core/Math/Math.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fluid/Core/Math/MathF.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fluid/Core/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Entity/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fluid/Core/Logger/LoggerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Console/LoggerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fluid/Core/Logger/PluginLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Console/PluginLogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fluid/Core/Logger/ServerLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Console/ServerLogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fluid/Fluid.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Fluid.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +33,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E6E6B40B-308C-4FE1-9C93-7C26C144C865/33/MathF.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Fluid/Core/Server.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Fluid/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/61F5185B-E9CF-48B9-8487-181D7861EB9C/E2/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukax/source/git/Fluid/Fluid/Fluid/Core/Color/CC.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/lukax/source/git/Fluid/Fluid/Fluid/Core/Color/CC.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -53,7 +64,6 @@
       <option value="$PROJECT_DIR$/Fluid/Core/Event/EventArgs.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Event/Event.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Event/PriotisedEvent.cs" />
-      <option value="$PROJECT_DIR$/Fluid/Core/Entity/Entity.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/World/World.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Block/Blocks/Air.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Block/Blocks/ShinyTestBlock.cs" />
@@ -70,6 +80,11 @@
       <option value="$PROJECT_DIR$/Fluid/Core/Plugin/PluginManager.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Item/Items/ItemType.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Color/CC.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Entity/EntityMeta.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Entity/Entity.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Math/Math.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Math/MathF.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Entity/LivingEntity.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sLSi5Lyd7DfoSL1YFfAyXpNCY5" />
@@ -125,7 +140,7 @@
       <workItem from="1622280719459" duration="490000" />
       <workItem from="1622282616012" duration="979000" />
       <workItem from="1622293386294" duration="2585000" />
-      <workItem from="1622303853133" duration="636000" />
+      <workItem from="1622303853133" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1622275259994</created>
@@ -183,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622304366650</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added descriptions to all ChatColors">
+      <created>1622304525045</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622304525045</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +234,7 @@
     <MESSAGE value="polished the ChatColor names" />
     <MESSAGE value="restructured the Inventories folder" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Added descriptions to all ChatColors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added descriptions to all ChatColors" />
   </component>
 </project>
