@@ -4,11 +4,6 @@ namespace Fluid.Core
     {
         public override bool Is<T>() => typeof(T) == typeof(OnlinePlayer);
 
-        private int gamemode = 1;
-
-        public int getGamemode()
-        {
-            return this.gamemode;
-        }
+        
     }
 }
