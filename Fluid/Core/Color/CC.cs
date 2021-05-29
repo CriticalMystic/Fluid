@@ -8,9 +8,25 @@ namespace Fluid.Core
         /// Red §c
         /// </summary>
         public static string Red = "§c";
+        
+        /// <summary>
+        /// Red §c
+        /// </summary>
         public static string Black = "§0";
+        
+        /// <summary>
+        /// Red §c
+        /// </summary>
         public static string DarkBlue = "§1";
+        
+        /// <summary>
+        /// Red §c
+        /// </summary>
         public static string DarkGreen = "§2";
+        
+        /// <summary>
+        /// Red §c
+        /// </summary>
         public static string DarkAqua = "§3";
         public static string DarkRed = "§4";
         public static string DarkPurple = "§5";
