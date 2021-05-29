@@ -6,6 +6,9 @@ namespace Fluid.Core
         /// Sends a message to the Chat
         /// </summary>
         /// <param name="message">The message that will be displayed to other players</param>
-        public void SendMessage(string message) { }
+        public void SendMessage(string message)
+        { 
+            
+        }
     }
 }

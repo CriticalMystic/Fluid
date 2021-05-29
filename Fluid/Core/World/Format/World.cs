@@ -12,7 +12,7 @@ namespace Fluid.Core
         /// <summary>
         /// This is the holder of the WorldChat where players can communicate inside of this world
         /// </summary>
-        public WorldChat Chat = new();
+        public WorldChat chat = new();
         
         // Random
         
@@ -20,7 +20,5 @@ namespace Fluid.Core
         /// This value can generate random numbers
         /// </summary>
         public static Random Random { get; set; } = new();
-
-
     }
 }
