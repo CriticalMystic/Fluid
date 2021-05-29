@@ -4,8 +4,8 @@
     <projectFile>FluidCore/FluidCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment=".">
+      <change beforePath="$PROJECT_DIR$/Fluid/Core/Color/CC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Color/CC.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Fluid/Core/Server.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Fluid/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/61F5185B-E9CF-48B9-8487-181D7861EB9C/E2/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukax/source/git/Fluid/Fluid/Fluid/Core/Color/CC.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -47,7 +48,6 @@
       <option value="$PROJECT_DIR$/Fluid/Core/Entity/Entities/OnlinePlayer.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Entity/Entities/OfflinePlayer.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Block/Block.cs" />
-      <option value="$PROJECT_DIR$/Fluid/Core/Color/CC.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Command/Command.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Event/EventPriority.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Event/EventArgs.cs" />
@@ -69,6 +69,7 @@
       <option value="$PROJECT_DIR$/Fluid/Core/Plugin/Plugin.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Plugin/PluginManager.cs" />
       <option value="$PROJECT_DIR$/Fluid/Core/Item/Items/ItemType.cs" />
+      <option value="$PROJECT_DIR$/Fluid/Core/Color/CC.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sLSi5Lyd7DfoSL1YFfAyXpNCY5" />
@@ -124,7 +125,7 @@
       <workItem from="1622280719459" duration="490000" />
       <workItem from="1622282616012" duration="979000" />
       <workItem from="1622293386294" duration="2585000" />
-      <workItem from="1622303853133" duration="321000" />
+      <workItem from="1622303853133" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1622275259994</created>
@@ -161,7 +162,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622295220525</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="polished the ChatColor names">
+      <created>1622304288755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622304288755</updated>
+    </task>
+    <task id="LOCAL-00007" summary="restructured the Inventories folder">
+      <created>1622304348428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622304348428</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".">
+      <created>1622304366650</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622304366650</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +209,9 @@
     <MESSAGE value="fixed Item.cs" />
     <MESSAGE value="first init" />
     <MESSAGE value="updated some stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated some stuff" />
+    <MESSAGE value="polished the ChatColor names" />
+    <MESSAGE value="restructured the Inventories folder" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
