@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fluid.Core.Inventory
+namespace Fluid.Core.Inventories
 {
     public class Inventory
     {

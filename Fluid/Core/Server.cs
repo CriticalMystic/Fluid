@@ -71,5 +71,13 @@ namespace Fluid.Core
             Initialized = false;
         }
         
+
+        public OnlinePlayer getOnlinePlayer(string name)
+        {
+            foreach(OnlinePlayer player in Players)
+            {
+                player.Name.Equals(name);
+            }
+        }
     }
 }
