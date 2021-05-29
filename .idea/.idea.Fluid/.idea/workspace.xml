@@ -4,11 +4,7 @@
     <projectFile>FluidCore/FluidCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fluid/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Fluid/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Fluid/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fluid/Core/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fluid/Core/Items/Item.cs" afterDir="false" />
-    </list>
+    <list default="true" id="6c1be71b-d83c-45d1-9825-861bfb714e67" name="Default Changelist" comment="fixed Item.cs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +120,7 @@
       <workItem from="1622275085582" duration="726000" />
       <workItem from="1622280719459" duration="490000" />
       <workItem from="1622282616012" duration="979000" />
-      <workItem from="1622293386294" duration="711000" />
+      <workItem from="1622293386294" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1622275259994</created>
@@ -140,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622275756469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed Item.cs">
+      <created>1622294123394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622294123394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +167,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first init" />
     <MESSAGE value="removed .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed .idea" />
+    <MESSAGE value="fixed Item.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed Item.cs" />
   </component>
 </project>
