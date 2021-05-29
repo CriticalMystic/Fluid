@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <Folder Include="Core\Command\Commands" />
+      <Folder Include="Core\Inventory\Inventories" />
       <Folder Include="Core\Packet" />
     </ItemGroup>
 
