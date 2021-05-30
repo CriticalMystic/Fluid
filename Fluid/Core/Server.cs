@@ -124,22 +124,20 @@ namespace Fluid.Core
         /// /// <param name="name">The player name to search for</param>
         /// <returns>Returns all found OnlinePlayers</returns>
         public static List<OnlinePlayer> GetAllPlayersByName(string name) => OnlinePlayers.FindAll(player => player.Name == name);
-        
-        //fgdgfg
-            
+
         /// <summary>
         /// Finds a player that has the same name
         /// </summary>
         /// <param name="uuid">The player name to search for</param>
         /// <returns>Returns the first found player or null if none was found</returns>
-        public static OnlinePlayer? GetOnlinePlayerByUUID(Guid uuid) => OnlinePlayers.Find(player => player.Name == name);
+        public static OnlinePlayer? GetOnlinePlayerByUUID(Guid uuid) => OnlinePlayers.Find(player => player.UUID == uuid);
         
         /// <summary>
         /// Finds a player that has the same name
         /// </summary>
         /// <param name="uuid">The player name to search for</param>
         /// <returns>Returns the first found player or null if none was found</returns>
-        public static OfflinePlayer? GetOfflinePlayerByUUID(string name) => OfflinePlayers.Find(player => player.Name == name);
+        public static OfflinePlayer? GetOfflinePlayerByUUID(Guid uuid) => OfflinePlayers.Find(player => player.UUID == uuid);
 
         /// <summary>
         /// Finds an OnlinePlayer that has the same name

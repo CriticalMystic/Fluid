@@ -1,4 +1,5 @@
-using Fluid.Core.Inventories;
+using Fluid.Core;
+using System;
 
 namespace Fluid.Core
 {
@@ -9,6 +10,8 @@ namespace Fluid.Core
         public int Gamemode { get; set; }
 
         public string Name { get; set; }
+
+        public Guid UUID { get; set; }
 
         public Inventory Inventory { get; set; }
     }
