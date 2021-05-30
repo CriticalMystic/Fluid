@@ -11,7 +11,17 @@ namespace Fluid.Core.Logger
         public static void Info(string message)
         {
             Console.Write("[Server]: ");
-            foreach("§")
+            foreach(string cc in CC.AllColorCodes)
+            {
+                int i = 0;
+                while(i <= message.Length)
+                {
+                    if(message[i].ToString().Equals("§"))
+                    {
+
+                    }
+                }
+            }
             
             Console.Write(message, ConsoleColor.Red);
         }
