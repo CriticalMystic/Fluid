@@ -106,7 +106,7 @@ namespace Fluid.Core
         /// </summary>
         public static string Reset = "§r";
 
-        public static List<string> AllColorCodes = new()
+        public static List<string> AllColorCodes { get; private set; } = new()
         {
             Red,
             Black,
