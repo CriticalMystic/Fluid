@@ -5,7 +5,7 @@ namespace Fluid.Core
     /// <summary>
     /// Represents a Minecraft World
     /// </summary>
-    public class World
+    public class World : IDisposable
     {
         // Chat
         
@@ -20,5 +20,10 @@ namespace Fluid.Core
         /// This value can generate random numbers
         /// </summary>
         public static Random Random { get; set; } = new();
+
+        public void Dispose()
+        {
+            GC.SuppressFinalize(this);
+        }
     }
 }
