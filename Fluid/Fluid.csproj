@@ -18,6 +18,7 @@
       <Folder Include="Core\Command\Commands" />
       <Folder Include="Core\Entity\Meta" />
       <Folder Include="Core\Inventory\Inventories" />
+      <Folder Include="Core\Item\Items" />
       <Folder Include="Core\Packet" />
     </ItemGroup>
 
