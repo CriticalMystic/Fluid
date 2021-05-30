@@ -102,7 +102,7 @@ namespace Fluid.Core
         /// </summary>
         /// /// <param name="name">The player name to search for</param>
         /// <returns>Returns the first found OnlinePlayer or null if none was found</returns>
-        public static OnlinePlayer? GetPlayerByName(string name) => OnlinePlayers.Find(player => player.Name == name);
+        public static OnlinePlayer? GetPlayerByName(string name) => Players.Find(player => player.Name == name);
         
         /// <summary>
         /// Finds a player that has the same name
