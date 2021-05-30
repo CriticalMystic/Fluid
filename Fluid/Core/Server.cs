@@ -144,27 +144,27 @@ namespace Fluid.Core
         /// </summary>
         /// /// <param name="uuid">The player name to search for</param>
         /// <returns>Returns the first found OnlinePlayer or null if none was found</returns>
-        public static OnlinePlayer? GetPlayerByUUID(string name) => OnlinePlayers.Find(player => player.Name == name);
+        public static OnlinePlayer? GetPlayerByUUID(Guid uuid) => Players.Find(player => player.UUID == uuid);
         
         /// <summary>
         /// Finds a player that has the same name
         /// </summary>
         /// <param name="uuid">The player name to search for</param>
         /// <returns>Returns all found players</returns>
-        public static List<OnlinePlayer> GetAllOnlinePlayersByUUID(string name) => OnlinePlayers.FindAll(player => player.Name == name);
+        public static List<OnlinePlayer> GetAllOnlinePlayersByUUID(Guid uuid) => OnlinePlayers.FindAll(player => player.UUID == uuid);
         
         /// <summary>
         /// Finds a player that has the same name
         /// </summary>
         /// <param name="uuid">The player name to search for</param>
         /// <returns>Returns all found players</returns>
-        public static List<OfflinePlayer> GetAllOfflinePlayersByUUID(string name) => OfflinePlayers.FindAll(player => player.Name == name);
+        public static List<OfflinePlayer> GetAllOfflinePlayersByUUID(Guid uuid) => OfflinePlayers.FindAll(player => player.UUID == uuid);
 
         /// <summary>
         /// Finds an OnlinePlayer that has the same name
         /// </summary>
         /// /// <param name="uuid">The player name to search for</param>
         /// <returns>Returns all found OnlinePlayers</returns>
-        public static List<OnlinePlayer> GetAllPlayersByUUID(string name) => OnlinePlayers.FindAll(player => player.Name == name);
+        public static List<OnlinePlayer> GetAllPlayersByUUID(Guid uuid) => Players.FindAll(player => player.UUID == uuid);
     }
 }
