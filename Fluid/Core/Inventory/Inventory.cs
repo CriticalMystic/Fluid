@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Fluid.Core.Inventories
+namespace Fluid.Core
 {
-    public class Inventory
+    public abstract record Inventory : IDisposable
     {
-        public Inventory(Player owner, int slots)
+        public void Dispose()
         {
-
+            GC.SuppressFinalize(this);
         }
     }
 }
